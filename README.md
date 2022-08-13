@@ -8,7 +8,7 @@ cohesity-api: the Cohesity REST API helper module
 You can download the script using the following commands:
 
 # Download Commands
-$repoURL = 'https://github.com/danfrankenstein/scripts'
+$repoURL = 'https://raw.githubusercontent.com/danfrankenstein/scripts/main'
 (Invoke-WebRequest -UseBasicParsing -Uri "$repoUrl/cohesity-api.ps1").content | Out-File cohesity-api.ps1; (Get-Content cohesity-api.ps1) | Set-Content cohesity-api.ps1
 # End Download Commands
 
